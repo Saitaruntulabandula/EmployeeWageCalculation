@@ -2,14 +2,14 @@ package com.bridgelabz;
 
 public class EmployeeWage {
 	public static void main(String[] args) {
-		int fullDayWork=8;
 		int wagePerHr=20;
 		int isPresent=1;
+		int partTimeHours=8;
 	    double value=Math.floor(Math.random()*10)%2;
 	    if(value==isPresent)
 	    {
-	    	System.out.println("Emp is Present");
-	    	System.out.println("Employee wage =" +fullDayWork*wagePerHr);
+	    	 System.out.println("Emp is Present");
+	    	 System.out.println("Wage of the part time Employee is = " +wagePerHr*partTimeHours);
 	    }
 	    else
 	    {
